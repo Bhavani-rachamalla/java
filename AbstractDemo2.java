@@ -10,9 +10,8 @@ abstract class Base
 class Derived extends Base{
     Derived()
     {
-        //System.super();
+        super();
         System.out.println("Derived class constructor is Invoked");
-        //System.Super();
     }
     void fun()
     {
